@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        :root {
+        --blue: #1A5CFF;
+        --light-blue: #9ecefa;
+        --White: hsl(0, 0%, 100%);
+        --gray: #1E2023;
+        }
+        body{
+            font-family: "Heebo", sans-serif;
+        }
+        .container{
+            margin: 1em 2.5em;
+        }
+        .first{
+            height: 80vh;
+            position: relative;
+            background-color: var(--blue) ;
+            width: 100%;
+            transform: skewY(10px , 20px);
+        }
+        .first .firt-title{
+           position: absolute;
+           top: 5em;
+           left: 7.5em; 
+           border-left: 9px solid var(--gray); 
+           color: var(--White);
+           text-shadow: 2px 2px 7px var(--gray);
+        }
+        .firt-title h1{
+           padding: 0px 0px 0px 10px;
+           font-style: normal;
+           font-weight: 700;
+           font-size: 55px;
+           text-transform: uppercase; 
+           
+        }
+        .firt-title h2{
+           padding-left: 10px;
+           font-style: normal;
+           font-weight: 600;
+           font-size: 31.4486px;
+        }
+        .triangulo{
+            width: 100%;
+            height: 110px;
+            display: flex;
+            position: absolute;
+            top: 95%;
+            left: 50%;
+            transform: translate(-50% , -50%);
+        }
+        .trianguloI{
+            width: 50%;
+            height: 110px;
+            background-color: var(--blue);
+            background-image: linear-gradient(to left top, white 10px, white 60%, transparent 0%);
+        }
+        .trianguloD{
+            width: 50%;
+            height:110px;
+            background-color: var(--blue);
+            background-image: linear-gradient(to right top, white 100px, white 60%, transparent 0%);
+        }
+        .second{
+            width: 100%;
+            height: 45em; 
+            position: relative;
+           
+        }
+        .banner-second{
+            width: 80%;
+            height: 60%;
+            background-color: var(--gray);
+            border-radius: 2%;
+            box-shadow: 1px 1px 0px 0px  var(--gray);
+            position: absolute;
+             top: -13%; 
+            left: 50%;
+            transform: translate(-50% , -50%);
+        }
+        .bannertwo-second{
+            width: 80%;
+            height: 40%;
+            color: var(--gray);
+            position: absolute;
+            top: 55%;
+            left: 50%;
+            transform: translate(-50% , -50%);
+            
+        }
+        .banner-trird{
+            width: 100%;
+            height: 40%;
+            position: absolute;
+            overflow:hidden ;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50% , -50%);
+        }
+        .cuadro{
+            position: absolute;
+            width: 5%;
+            height: 24%;
+            top: 50%;
+            left: 95%;
+            transform: translate(-50% , -50%);
+            border: 14.1474px solid var(--blue);
+            border-radius: 26.5263px;
+            transform: rotate(-45deg);
+        
+        }
+        .tree{
+            background-color: var(--blue);
+            height: 30em;
+        }
+
+
+        footer{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <main >
+        <section class="first">
+            <span class="firt-title">
+                <h1>
+                    Portafolio Design
+                </h1>
+                <h2>
+                    Jherry Ponce
+                </h2>
+            </span>
+            <div class="triangulo">
+                <div class="trianguloI">
+                </div>
+                <div class="trianguloD">
+                </div>
+            </div>
+            
+            
+        </section>
+        <section class="second">
+            <div class="banner-second">
+               <!--  <div class="cuadro"></div> -->
+            </div>
+            <div class="bannertwo-second">
+                <span>
+                    <h2>Sobre Mi</h2>
+                </span>
+                <div>
+                    <p>Hi! I am Kartik Khorwal and I am presenting my portfolio design.</p>
+                    <p>
+                        This is minimal design developed to carry out purpose in simplest way. This design is an simple website for showcasing your projects and skills.
+                    </p>
+                    <p>
+                        Some of the images are picked from other sources to carry out this project. Thanks to all of them.
+                    </p>
+                </div>
+               
+            </div>
+            <div class="banner-trird" >
+                <div class="cuadro"></div>
+            </div>
+
+        </section>
+        <section class="second tree">
+
+        </section>
+        <section class="second" >
+
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
